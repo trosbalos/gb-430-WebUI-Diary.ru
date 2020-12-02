@@ -1,6 +1,7 @@
 
 import static org.junit.jupiter.api.Assertions.*;
 
+import io.qameta.allure.Feature;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebElement;
@@ -8,7 +9,7 @@ import org.openqa.selenium.WebElement;
 
 public class LoginTest extends BaseTest {
 
-
+    @Feature("login Test")
     @Test
     void loginTest() {
         new HomePage(driver)

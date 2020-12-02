@@ -1,10 +1,12 @@
 import static org.junit.jupiter.api.Assertions.*;
 
+import io.qameta.allure.Feature;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebElement;
 
 public class SendEmailTest extends BaseTest {
+    @Feature("sendEmail Test")
     @Test
     void sendEmailTest() {
         new HomePage(driver)

@@ -1,11 +1,12 @@
 import static org.junit.jupiter.api.Assertions.*;
 
+import io.qameta.allure.Feature;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebElement;
 
 public class RegistrationTest extends BaseTest {
-
+    @Feature("registration Test")
     @Test
     void registrationTest() {
         new HomePage(driver)

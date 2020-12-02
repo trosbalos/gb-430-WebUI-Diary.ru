@@ -1,11 +1,13 @@
 import static org.junit.jupiter.api.Assertions.*;
 
+import io.qameta.allure.Feature;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebElement;
 
 
 public class NewPostTest extends BaseTest {
+    @Feature("newPost Test")
     @Test
     void newPostTest() {
         new HomePage(driver)
